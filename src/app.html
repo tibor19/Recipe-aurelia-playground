@@ -1,9 +1,6 @@
 <template>
   <require from='./nav-bar'></require>
-
-
     <div class="container">
-
         <header>
             <h1>The spaghetti code files</h1>
             <h3>Random recipes</h3>
@@ -17,7 +14,7 @@
         <footer>
             <p>
                 <span repeat.for="row of router.navigation">
-                    <a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1.in" href.bind="row.href">${row.title}</a> |
+                    <a data-toggle="collapse" data-target="#bs-example-navbar-collapse-1.in" href.bind="row.href">${row.title}</a> <span show.bind="!$last"> |</span>
                 </span>
             </p>
         </footer>

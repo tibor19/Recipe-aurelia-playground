@@ -14,8 +14,8 @@ export class Recipe
     activate() {
         return this.http.get(this.url).then(response => {
             this.recipe = response.content;
-    });
-}
+        });
+    }
 }
     
 export class CurrencyValueConverter {

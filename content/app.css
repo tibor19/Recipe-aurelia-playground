@@ -7,7 +7,7 @@
 body {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 0.8em;
-    background-image: url("/content/Images/bg-spaghetti.jpg");
+    background-image: url("/content/images/bg-spaghetti.jpg");
     background-repeat: repeat;
     background-attachment: scroll;
 }
@@ -121,12 +121,12 @@ nav a:hover {
     color: #503750;
 }
 
-.ingredientsList{
+.ingredients-list{
     list-style-type:none;
     margin:5px;
 }
 
-.instructionsList {
+.instructions-list {
     list-style-type:decimal;
     margin:15px;
 }
@@ -160,11 +160,11 @@ a:hover {
     text-decoration: underline;
 }
 
-.style_bold {
+.font-bold {
     font-weight: bold;
 }
 
-.style_italic {
+.font-italic {
     font-style: italic;
 }
 
@@ -176,56 +176,46 @@ a:hover {
     height: 160px;
 }
 
-.leftboxcontent {
-    width: 220px;
-    float: left;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.float-right {
+    float: right;
 }
 
-.rightboximage {
+.box-image {
     width: 210px;
-    float: right;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.rightboxcontent {
+.box-content {
     width: 220px;
-    float: right;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.leftboximage {
-    width: 210px;
+.float-left {
     float: left;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
-.recipeImage {
+.recipe-image {
     height:130px;
     width:200px;
     border:1px solid Black;
 }
 
-.bigbox {
+.big-box {
     border: thin dashed #C0C0C0;
     width: 430px;
     margin-bottom: 10px;
     padding: 10px;
 }
 
-.recipelist {
+.recipe-list {
     margin-left: 0;
 }
 
-.recipelist li {
+.recipe-list li {
     /*display: inline;*/
     float: left;
     margin-bottom: 15px;
