@@ -5,9 +5,12 @@ export class App {
   configureRouter(config, router){
     config.title = 'Aurelia';
     config.map([
-      { route: ['','welcome'],  moduleId: './welcome',      nav: true, title:'Welcome' },
-      { route: 'flickr',        moduleId: './flickr',       nav: true },
-      { route: 'child-router',  moduleId: './child-router', nav: true, title:'Child Router' }
+      { route: ['','home'],  moduleId: './home',      nav: true, title:'Home' },
+      { route: 'search',  moduleId: './search',      nav: true, title:'Search' },
+      { route: 'recipe',        moduleId: './recipe', nav: true, title: 'I feel lucky'},
+      { route: 'top-recipe',        moduleId: './top-recipe', nav: true, title: 'Top Recipe'},
+      { route: 'weekly-menu',  moduleId: './weekly-menu', nav: true, title:'Weekly Menu' },
+      { route: 'contact-us',  moduleId: './contact-us', nav: true, title:'Contact Us' }
     ]);
 
     this.router = router;
