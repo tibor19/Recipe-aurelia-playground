@@ -1,4 +1,4 @@
-﻿export class Start
+﻿export class Home
 {
     
 }

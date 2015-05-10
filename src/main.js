@@ -1,8 +1,9 @@
 export function configure(aurelia) {
+  aurelia.globalizeResources('./converters');
   aurelia.use
     .standardConfiguration()
     .developmentLogging()
-    .plugin('aurelia-animator-css');
+    ;
 
   aurelia.start().then(a => a.setRoot());
 }

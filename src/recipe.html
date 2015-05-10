@@ -1,4 +1,5 @@
 ﻿<template>
+    <require from='./converters'></require>
     <div>
         <h2>${recipe.name}</h2>
         <div class="box">
@@ -15,7 +16,7 @@
                 </table>
             </div>
             <div class="box-image float-left">
-                <img class="recipe-image" src.bind='recipe.image | imagePath' />
+                <img class="recipe-image" src.bind="recipe.image | imagePath" />
             </div>
         </div>
         <h3>Ingredients</h3>
