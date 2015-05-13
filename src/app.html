@@ -1,5 +1,5 @@
 <template>
-  <require from='./nav-bar'></require>
+    <require from='./nav-bar'></require>
     <div class="container">
         <header>
             <h1>The spaghetti code files</h1>
@@ -7,8 +7,10 @@
         </header>
 
         <nav-bar router.bind="router"></nav-bar>
-        <article class="content">
+        <article >
+          <div class="content">
             <router-view></router-view>
+          </div>
         </article>
 
         <footer>

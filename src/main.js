@@ -1,9 +1,8 @@
 export function configure(aurelia) {
-  aurelia.globalizeResources('./converters');
+  aurelia.globalizeResources(['./converters']);
   aurelia.use
     .standardConfiguration()
-    .developmentLogging()
-    ;
+    .developmentLogging();
 
   aurelia.start().then(a => a.setRoot());
 }

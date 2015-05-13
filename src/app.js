@@ -1,9 +1,6 @@
-import 'bootstrap';
-import 'bootstrap/css/bootstrap.css!';
-
 export class App {
   configureRouter(config, router){
-    config.title = 'Aurelia';
+    config.title = 'The spaghetti code files';
 
     config.map([
       { route: ['','home'],     moduleId: './home',        nav: true, title:'Home' },
